@@ -1,3 +1,8 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 html.js .loader {
   background: none repeat scroll 0 0 #ffffff;
   bottom: 0;
@@ -8,19 +13,20 @@ html.js .loader {
   top: 0;
   width: 100%;
   z-index: 9999; }
-  html.js .loader .loader_inner {
-    background-image: url("../img/preloader.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-color: #fff;
-    height: 60px;
-    width: 60px;
-    margin-top: -30px;
-    margin-left: -30px;
-    left: 50%;
-    top: 50%;
-    position: absolute; }
+
+html.js .loader .loader_inner {
+  background-image: url("../img/preloader.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #fff;
+  height: 60px;
+  width: 60px;
+  margin-top: -30px;
+  margin-left: -30px;
+  left: 50%;
+  top: 50%;
+  position: absolute; }
 
 body {
   font-family: "RobotoRegular", sans-serif;
@@ -29,7 +35,7 @@ body {
   min-width: 320px;
   position: relative;
   line-height: 1.6;
-  -webkit-font-smoothing: antialised;
+  -webkit-font-smoothing: antialiased;
   overflow-x: hidden; }
 
 body input:focus:required:invalid,
@@ -42,3 +48,85 @@ body textarea:required:valid {
 
 .hidden {
   display: none; }
+
+.home {
+  width: 100%;
+  height: 900px;
+  background: url(../img/home-bg.jpg) no-repeat 50% 50%;
+  background-size: cover; }
+
+.logo {
+  display: inline-block;
+  font: bold 24px/24px 'Lato';
+  color: #fff;
+  margin-top: 35px; }
+
+.menu {
+  margin-top: 40px;
+  float: right; }
+
+.menu ul {
+  margin: 0;
+  padding: 0; }
+
+.menu li {
+  display: inline-block;
+  float: left;
+  margin-left: 30px; }
+
+.menu li:first-child {
+  margin-left: 0; }
+
+.menu a {
+  padding: 0 5px 20px 5px;
+  font: bold 14px/24px 'Lato';
+  color: #fff; }
+
+.menu a:hover {
+  border-bottom: 3px solid #cd3737; }
+
+.home-title {
+  text-align: center;
+  margin-top: 240px; }
+
+.home-title h1 {
+  font: normal 44px/24px 'Open Sans';
+  color: #999;
+  margin-bottom: 20px; }
+
+.home-title span {
+  font-weight: bold;
+  color: #fff; }
+
+.home-title h5 {
+  margin: 0 0 75px 0;
+  vertical-align: middle;
+  font: normal 20px/24px 'Open Sans';
+  color: rgba(255, 255, 255, 0.75); }
+
+.home-title h5 span {
+  color: #c5c5c5; }
+
+.btn {
+  display: block;
+  vertical-align: middle;
+  text-align: center;
+  width: 260px;
+  height: 57px;
+  margin: 0 auto;
+  background-color: #cd3737;
+  font: bold 16px/57px 'Lato';
+  color: #fff;
+  cursor: pointer; }
+
+.arrow {
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  margin-top: 240px;
+  border: 3px solid #c2c2c2;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: url(../img/arrow.png) no-repeat 50% 50%; }
