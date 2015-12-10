@@ -50,4 +50,8 @@ $(window).load(function() {
 	$(".loader_inner").fadeOut();
 	$(".loader").delay(400).fadeOut("slow");
 
+$('.dop-info p').each(function(){
+    var $p = $(this);
+    $p.html($p.html().replace(/^(\w+)/, '<strong>$1</strong>')); });	
+
 });

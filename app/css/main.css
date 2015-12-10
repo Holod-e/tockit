@@ -276,3 +276,30 @@ p {
     -webkit-transform: rotate(360deg);
     -o-transform: rotate(360deg);
     transform: rotate(360deg); } }
+
+.section-item__info {
+  margin-bottom: 80px; }
+
+.dop-info {
+  margin-bottom: 80px;
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 1px solid #2a2a2a; }
+
+.dop-info p::before,
+.dop-info p::after {
+  display: inline-block;
+  vertical-align: middle;
+  content: '';
+  width: 30px;
+  height: 1px;
+  background-color: #2a2a2a; }
+
+.dop-info p::before {
+  margin-right: 10px; }
+
+.dop-info p::after {
+  margin-left: 10px; }
+
+.why-us .btn {
+  margin-top: 140px; }
