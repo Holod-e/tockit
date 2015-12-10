@@ -67,6 +67,14 @@ h3 {
 	margin-bottom: 20px;
 }
 
+h4 {
+	font-size: 20px;
+	color: #2a2a2a;
+	line-height: 26px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
 p {
 	font-size: 16px;
 	line-height: 22px;
@@ -297,4 +305,42 @@ p {
 
 .why-us .btn {
 	margin-top: 140px;
+	margin-bottom: 80px;
+}
+
+
+//=====================CASE-STUDIES========
+.case-studies {
+	min-height: 720px;
+	background: url(../img/case-studies-bg.png) no-repeat 50% 50%;
+	background-size: cover;
+	text-align: center;
+}
+
+.img-wrap {
+	display: inline-block;
+	width: 155px;
+	height: 155px;
+	border-radius: 50%;
+	border: 4px solid #2a2a2a;
+}
+
+.cola { background: url(../img/case-img1.png) no-repeat 50% 50%;}
+.beer { background: url(../img/case-img2.png) no-repeat 50% 50%;}
+.whiski { background: url(../img/case-img3.png) no-repeat 50% 50%;}
+.snickers { background: url(../img/case-img4.png) no-repeat 50% 50%;}
+
+
+.case-studies p {
+	font-size: 15px;
+	line-height: 22px;
+	font-style: italic;
+	color: rgba(42, 42, 42, 0.65);
+	margin-bottom: 30px;
+}
+.case-studies .btn {
+	width: 123px;
+	height: 38px;
+	line-height: 38px;
+	margin-bottom: 75px;
 }
