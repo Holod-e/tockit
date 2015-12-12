@@ -351,3 +351,133 @@ p {
   height: 38px;
   line-height: 38px;
   margin-bottom: 75px; }
+
+.portfolio {
+  min-height: 1140px; }
+
+.portfolio .section-title {
+  margin-bottom: 160px; }
+
+.filter-wrap {
+  border-top: 1px solid #2a2a2a;
+  border-left: 1px solid #2a2a2a;
+  border-right: 1px solid #2a2a2a;
+  height: 24px; }
+
+.filter {
+  float: left;
+  display: inline-block;
+  margin-bottom: 50px; }
+
+.filter p {
+  font-size: 18px;
+  line-height: 26px;
+  color: #cd3737;
+  text-align: left;
+  margin: 0;
+  padding-left: 17px; }
+
+.types {
+  display: inline-block;
+  float: right; }
+
+.types ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+.types li {
+  display: inline-block;
+  float: left;
+  padding: 0 17px;
+  border-right: 1px solid #2a2a2a; }
+
+.types li:last-child {
+  border-right: none; }
+
+.types a {
+  color: #2a2a2a; }
+
+.active a {
+  font-weight: 700;
+  color: #cd3737; }
+
+.portfolio-item-wrap {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  float: left;
+  height: auto;
+  max-height: 500px;
+  margin-bottom: 120px; }
+
+.portfolio-item {
+  display: inline-block;
+  float: left;
+  text-align: center;
+  width: 33%; }
+
+.portfolio-item img {
+  max-width: 100%;
+  height: auto; }
+
+.btn-wrapper {
+  display: block; }
+
+.portfolio .btn {
+  margin-bottom: 38px; }
+
+.first-underline {
+  width: 260px;
+  height: 2px;
+  margin: 0 auto;
+  background-color: #2a2a2a;
+  margin-bottom: 9px; }
+
+.second-underline {
+  width: 165px;
+  height: 1px;
+  margin: 0 auto;
+  background-color: #2a2a2a; }
+
+.reviews {
+  position: relative;
+  min-height: 717px;
+  background: url(../img/reviews-bg.jpg) no-repeat 50% 50%;
+  background-size: cover; }
+
+.reviews .section-title h1 {
+  color: #fff; }
+
+.reviews .first-line,
+.reviews .second-line {
+  background-color: #fff; }
+
+.reviews p.quote,
+.reviews .author {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 45px; }
+
+.reviews .author {
+  text-transform: none; }
+
+.request {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 114px;
+  width: 100%;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  line-height: 114px;
+  background-color: #cd3737;
+  cursor: pointer; }
+
+.request:hover {
+  text-decoration: underline; }
