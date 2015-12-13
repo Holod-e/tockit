@@ -34,7 +34,21 @@
 		-ms-animation: none !important;
 		animation: none !important;
 	}
+	.menu {
+		display: none;
+	}
 
+	.pushy{
+        font-size: 1.0em;
+    }
+
+    .menu-btn {
+    	display: block;
+    }
+
+    .logo {
+    	float: right;
+    }
 }
 
 /* Extra Small Devices, Phones */

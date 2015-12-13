@@ -38,25 +38,43 @@
 <body>
 
 	<div class="wrapper">
+		
+		<!-- Pushy Menu -->
+		<nav class="pushy pushy-left">
+   			 <ul>
+        		<li><a href="#home">HOME</a></li>
+				<li><a href="#why-us">WHY US</a></li>
+				<li><a href="#case-studies">CASE STUDIES</a></li>
+				<li><a href="#portfolio">VIDEO PORTFOLIO</a></li>
+				<li><a href="#testimonials">TESTIMONIALS</a></li>
+				<li><a href="#contacts">CONTACT US</a></li>
+   			 </ul>
+		</nav>
+
+		<!-- Site Overlay -->
+		<div class="site-overlay"></div>
+		
 		<!--=====HOME=====-->
-		<div class="home">
-			<div class="container">
+
+		<div id="home" class="home">
+			<div class="container" id="container">
 				<div class="row">
-					<div class="col-md-3">
+					
 						<div class="logo">TOCKIT</div>
-					</div>
-					<div class="col-md-9">
-						<div class="menu">
+						
+					
+						<div class="menu-btn">&#9776; Menu</div>
+						<nav id="menu" class="menu ">
 							<ul>
-								<li><a href="#">HOME</a></li>
-								<li><a href="#">WHY US</a></li>
-								<li><a href="#">CASE STUDIES</a></li>
-								<li><a href="#">VIDEO PORTFOLIO</a></li>
-								<li><a href="#">TESTIMONIALS</a></li>
-								<li><a href="#">CONTACT US</a></li>
+								<li><a href="#home">HOME</a></li>
+								<li><a href="#why-us">WHY US</a></li>
+								<li><a href="#case-studies">CASE STUDIES</a></li>
+								<li><a href="#portfolio">VIDEO PORTFOLIO</a></li>
+								<li><a href="#testimonials">TESTIMONIALS</a></li>
+								<li><a href="#contacts">CONTACT US</a></li>
 							</ul>
-						</div>
-					</div>
+						</nav>
+					
 				</div>
 				<div class="row">
 					<div class="home-title">
@@ -64,12 +82,12 @@
 						<h5> We are a digital agency with <span>years of experience</span> and with <span>extraordinary people</span></h5>
 					</div>
 					<div class="btn">BROWSE OUR WORK</div>
-					<div class="arrow"></div>
+					<div id="arrow"><a class="arrow" href="#why-us"></a></div>
 				</div>
 			</div>
 		</div>
 		<!--=====WHY-US=====-->
-		<div class="why-us">
+		<div id="why-us" class="why-us">
 			<div class="container">
 				<div class="row">
 					<div class="section-title">
@@ -133,7 +151,8 @@
 				</div>
 			</div>
 		</div>
-		<div class="case-studies">
+		<!--=====CASE-STUDIES=====-->
+		<div id="case-studies" class="case-studies">
 			<div class="container">
 				<div class="row">
 					<div class="section-title">
@@ -172,7 +191,7 @@
 		</div>
 
 		<!--=====PORTFOLIO======-->
-		<div class="portfolio">
+		<div id="portfolio" class="portfolio">
 			<div class="container">
 				<div class="row">
 					<div class="section-title">
@@ -223,8 +242,8 @@
 			</div>
 		</div>
 
-		<!--====== REVIEVS ======-->
-		<div class="reviews">
+		<!--====== TESTIMONIALS ======-->
+		<div id="testimonials" class="testimonials">
 			<div class="container">
 				<div class="section-title">
 						<h1>client  <span>reviews</span></h1>
@@ -241,7 +260,7 @@
 		</div>
 
 		<!--======CONTACTS=====-->
-		<div class="contacts">
+		<div id="contacts" class="contacts">
 			<div class="container">
 				<div class="section-title">
 						<h1>send us  <span>a message</span></h1>
@@ -262,7 +281,7 @@
 					<div class="clearfix">
 						<div class="message-wrap">
 							<label for="message">Message *</label>
-							<input type="textarea" class="message" id="message" rows="10">
+							<textarea type="text" class="message" id="message" ></textarea>
 						</div>
 					</div>
 					<button type="submit" class="btn right">SEND MESSAGE</button>
@@ -295,6 +314,7 @@
 	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="libs/waypoints/waypoints.min.js"></script>
 	<script src="libs/plugins-scroll/plugins-scroll.js"></script>
+	<script src="libs/pushy/pushy.min.js"></script>
 	
 	<script src="js/common.js"></script>
 
